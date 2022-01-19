@@ -6,7 +6,7 @@ global
 defaults
   mode http                                # enable http mode which gives of layer 7 filtering
   timeout connect 5000ms                   # max time to wait for a connection attempt to a server to succeed
-  timeout client 500000ms                   # max inactivity time on the client side
+  timeout client 50000ms                   # max inactivity time on the client side
   timeout server 50000ms                   # max inactivity time on the server side
 
 frontend stats
